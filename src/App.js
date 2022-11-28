@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import login from './pages/login.jsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <routes>
+          <route path="/" element = {<login />} />
+          <route path="/login" element = {<login />} />
+        </routes>
         <div className="graRuta">
             
         </div>
